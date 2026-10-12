@@ -1,0 +1,43 @@
+# Environment and credentials
+.env
+*.env
+!.env.example
+
+# Temporary / scratch scripts containing tokens or test data
+make_env.py
+mount_gdrive.py
+check_gdrive.py
+manage_users.py
+test_anon.py
+test_bot_rclone.py
+新建 文本文档.txt
+*.key
+*.pem
+
+# Runtime data & Docker mount directories
+data/
+downloads/
+logs/
+config/
+bot-api-data/
+telegram-bot-api-data/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+
+# SQLite databases & Telegram session files
+*.db
+*.db-shm
+*.db-wal
+*.session
+*.session-journal
+*.binlog
+
+# System files
+.DS_Store
+Thumbs.db
